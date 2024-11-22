@@ -13,8 +13,12 @@
 ```
 source <(curl -s https://raw.githubusercontent.com/ryzwan29/glacier-node-testnet/main/quick-installation.sh)
 ```
+```
+nano config.yml
+```
 Replace the ```PrivateKey``` in the ```config.yaml``` with your privatekey.
-Fill your wallet with some opBNB testnet.
+After replacing the KN privit, save it with the following command and exit with CTRL+X+Y+ENTER
+Using the links below, first get faucet bnb and then convert it with opbnb.
 ### Run the Node
 ```
 screen -R glacier
@@ -22,6 +26,7 @@ screen -R glacier
 ```
 ./verifier_linux_amd64
 ```
+Wait for it to run, then close the screen with CTRL+A+D
 
 ## Docker
 
