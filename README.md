@@ -14,7 +14,7 @@
 source <(curl -s https://raw.githubusercontent.com/ryzwan29/glacier-node-testnet/main/quick-installation.sh)
 ```
 ```
-nano config.yml
+nano config.yaml
 ```
 Replace the ```PrivateKey``` in the ```config.yaml``` with your privatekey.
 After replacing the KN privit, save it with the following command and exit with CTRL+X+Y+ENTER
